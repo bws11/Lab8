@@ -1,4 +1,4 @@
-def bubble_sort(arr: list):
+def bubble_sort(arr: list) -> list:
     total_swaps: int = 0
     while True:
         changed: int = 0

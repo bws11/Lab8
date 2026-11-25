@@ -1,5 +1,5 @@
 import pytest
-from exercise_1 import bubble_sort
+from bubble_sort import bubble_sort
 
 def test_bubble_sort():
     assert bubble_sort([10, 3, 6, 2, 8, 1]) == [1, 2, 3, 6, 8, 10]

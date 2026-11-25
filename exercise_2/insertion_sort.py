@@ -1,4 +1,4 @@
-def insertion_sort(arr: list):
+def insertion_sort(arr: list) -> list:
     # Start with the second value
     # repeated move that value left until it's in the right place
     # Repeat
@@ -19,6 +19,3 @@ def insertion_sort(arr: list):
     print("Total swaps:", total_swaps)
     return arr
 
-
-if __name__ == '__main__':
-    insertion_sort([9, 4, 6, 2, 7])
